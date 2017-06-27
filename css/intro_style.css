@@ -1,0 +1,51 @@
+/* Подключение шрифтов */
+
+@font-face {
+    font-family: GothaProBol;
+    src: url(../fonts/GothaProBol.otf);
+}
+
+/* Работа с сайтом */
+
+body {
+    background-image: url(../img/intro/Background_main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo img {
+    width: 162px;
+    height: 119px;
+}
+
+.logo {
+    margin: 0 auto;
+    text-align: center;
+    padding: 583px 477px 29px 475px;
+}
+
+.btn {
+    width: 184px;
+    height: 46px;
+    text-align: center;
+    border: 2px solid #ec1e79;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+a {
+    color: #ec1e79;
+    font-size: 12px;
+    line-height: 54px;
+    font-family: GothaProBol;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover a {
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #ec1e79;
+}
