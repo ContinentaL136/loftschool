@@ -1,0 +1,145 @@
+/*
+* Подключение шрифтов
+*/
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/GothamPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/GothamPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/GothamPro-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Gotham';
+  font-weight: 300;
+  line-height: 1.42;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*
+* Главная страница - Воркадиум
+*/
+
+/* Стилизация header */
+
+.header {
+    background-color: #27273e;
+    padding: 14px 20px;
+}
+
+.contacts__phone {
+  font-weight: bold;
+  font-size: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.contacts__schedule {
+  color: #5dd1f8;
+  opacity: .7;
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  color: #5dd1f8;
+}
+
+.contacts {
+  float: right;
+  text-align: right;
+}
+
+/* Стилизация меню навигации */
+
+.sidebar {
+    float: left;
+    margin: 50px 80px 0 20px;
+}
+
+.nav-menu__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 54px;
+  color: #27273e;
+  text-transform: uppercase;
+}
+
+.nav-menu__link:hover {
+  color: #ec1e79;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu__item-main:before {
+  content: "";
+  display: inline-block;
+  background-image: url('../img/aside_icons/main_icon_simple.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+}
+
+.nav-menu__item-price:before {
+  content: "";
+  display: inline-block;
+  background-image: url('../img/aside_icons/wallet_icon_simple.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+}
+
+.nav-menu__item-comment:before {
+  content: "";
+  display: inline-block;
+  background-image: url('../img/aside_icons/feed_icon_simple.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+}
+
+/* Стилизация страницы Воркадиум, изменяемой части */
+
+.page-image {
+  height: 335px;
+}
+
+h1 {
+  top: 150px;
+  left: 268px;
+  font-size: 49px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.page-image__picture {
+  margin: 0 20px;
+  width: 100%;
+}
