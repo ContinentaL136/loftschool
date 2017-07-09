@@ -15,3 +15,6 @@
 
 /* Тарифы */
 @import "layout/prices.css";
+
+/* Отзывы */
+@import "layout/comments.css";
