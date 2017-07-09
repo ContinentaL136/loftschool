@@ -2,6 +2,7 @@
 
 .page-menu {
     padding-top: 42px;
+    font-style: italic;
 }
 
 .page-menu__item {
@@ -36,5 +37,53 @@
     font-size: 49px;
     line-height: 40px;
     color: #221f1f;
+    padding-bottom: 25px;
+}
+
+.prices-list__item {
+    text-align: center;
+    width: 250px;
+    margin-right: 43px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.prices-list__price {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #221f1f;
+    padding: 20px 0 10px 0;
+}
+
+.prices-list__pic {
+    width: 250px;
+    height: 153px;
+    border-radius: 2px;
+    opacity: 15%;
+}
+
+.prices-pic__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #5dd1f8;
+    vertical-align: middle;
+}
+
+.prices-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.prices-list__text {
+    font-size: 14px;
+    color: #221f1f;
+    line-height: 22px;
 }
 
