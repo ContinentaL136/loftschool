@@ -1,0 +1,112 @@
+/* Стилизация меню навигации */
+
+.sidebar {
+    float: left;
+    width: 180px;
+    padding-top: 45px;
+    padding-right: 10px;
+}
+
+.nav-menu__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ec1e79;
+  text-transform: uppercase;
+  max-width: 122px;
+  padding-left: 15px;
+}
+
+.nav-menu__link:hover {
+  color: #27273e;
+}
+
+.nav-menu__item-main {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 28px;
+}
+
+.nav-menu__item-main:before {
+  position: absolute;
+  content: "";
+  background-image: url('../../img/aside_icons/main_icon.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}
+
+.nav-menu__link-main:hover:before {
+  position: absolute;
+  content: "";
+  background-image: url('../../img/aside_icons/main_icon_simple.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}
+
+.nav-menu__item-price {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 28px;
+}
+
+.nav-menu__item-price:before {
+  position: absolute;
+  content: "";
+  background-image: url('../../img/aside_icons/wallet_icon.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}
+
+.nav-menu__link-price:hover:before {
+  position: absolute;
+  content: "";
+  background-image: url('../../img/aside_icons/wallet_icon_simple.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}
+
+.nav-menu__item-comment {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 28px;
+}
+
+.nav-menu__item-comment:before {
+  position: absolute;
+  content: "";
+  background-image: url('../../img/aside_icons/feed_icon.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}
+
+.nav-menu__link-comment:hover:before {
+  position: absolute;
+  content: "";
+  background-image: url('../../img/aside_icons/feed_icon_simple.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}

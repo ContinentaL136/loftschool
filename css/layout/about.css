@@ -1,0 +1,117 @@
+/*
+* Стилизация главной страницы
+*/
+
+.page-image {
+  height: 355px;
+  position: relative;
+}
+
+.page-image__text {
+  position: absolute;
+  top: 130px;
+  left: 68px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 49px;
+  line-height: 39px;
+}
+
+/* Стилизация текста */
+
+.page-text {
+    width: 700px;
+}
+
+.page-text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.page-text ul {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.page-text li:before {
+  color: #ec1e79;
+  content: "•";
+  padding-right: 10px;
+}
+
+.page-text h3 {
+  color: #221f1f;
+}
+
+/* Стилизация описания */
+
+.description {
+  width: 700px;
+  background-color: #27273e;
+  color: #ffffff;
+  padding: 20px 30px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.description__pink-text {
+  color: #ec1e79;
+  font-weight: bold;
+}
+
+/* Стилизация партнеров */
+
+.partners__title {
+  font-size: 49px;
+  color: #221f1f;
+  line-height: 40px;
+  margin-top: 70px;
+}
+
+.partners__list {
+  list-style: none;
+  padding: 0;
+}
+
+.partners__pic {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+.partners__pic:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+/* Отцентровка партнеров */
+
+/*
+
+.partners__list {
+  width: 700px;
+  text-align: center;
+}
+
+.partners__item {
+  display: inline-block;
+  width: 200px;
+}
+
+.partners__link {
+  line-height: 100px;
+  display: block;
+}
+
+.partners__pic {
+  vertical-align: middle;
+}
+
+*/
+
+.partners__list {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

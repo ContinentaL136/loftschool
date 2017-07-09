@@ -1,0 +1,52 @@
+/* 
+* Стилизация header
+*/
+
+.header {
+    background-color: #27273e;
+    padding: 10px 0;
+}
+
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+}
+
+.header__right {
+    text-align: right;
+    display: inline-block;
+}
+
+.contacts__phone {
+  font-weight: bold;
+  font-size: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.contacts__schedule {
+  opacity: .7;
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  color: #769dcd;
+}
+
+.contacts__schedule:hover {
+  opacity: .7;
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ec1e79;
+}
+
+.contacts {
+  display: inline-block;
+}
+
+.header-logo {
+    display: inline-block;
+}

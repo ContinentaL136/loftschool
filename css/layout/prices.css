@@ -1,0 +1,40 @@
+/* Верхняя навигация */
+
+.page-menu {
+    padding-top: 42px;
+}
+
+.page-menu__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.page-menu__item:after {
+    content: "/";
+    color: #656464;
+}
+
+.page-menu__link {
+    font-size: 14px;
+    line-height: 18px;
+    color: #f06499;
+    display: inline-block;
+}
+
+.page-menu__item--last:after {
+    content: "";
+}
+
+.page-menu__item--last .page-menu__link {
+    color: #656464;
+    text-decoration: none;
+}
+
+/* Стилизация тарифов */
+
+.prices-text {
+    font-size: 49px;
+    line-height: 40px;
+    color: #221f1f;
+}
+
