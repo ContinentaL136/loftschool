@@ -43,8 +43,16 @@
   color: #221f1f;
 }
 
-.nav-menu__item_active .nav-menu__icon {
+.nav-menu__item_active .nav-menu__icon-main {
   background-image: url('../../img/aside_icons/main_icon_simple.png');
+}
+
+.nav-menu__item_active .nav-menu__icon-price {
+  background-image: url('../../img/aside_icons/wallet_icon_simple.png');
+}
+
+.nav-menu__item_active .nav-menu__icon-comments {
+  background-image: url('../../img/aside_icons/feed_icon_simple.png');
 }
 
 .nav-menu__icon {

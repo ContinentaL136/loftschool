@@ -4,17 +4,20 @@
 @import "layout/base.css";
 
 /* Компоненты */
-@import "layout/header.css";
-@import "layout/aside.css";
-@import "layout/main-content.css";
-@import "layout/form.css";
-@import "layout/footer.css";
+@import "components/header.css";
+@import "components/aside.css";
+@import "components/main-content.css";
+@import "components/form.css";
+@import "components/footer.css";
 
 /* Главная */
-@import "layout/about.css";
+@import "components/about.css";
 
 /* Тарифы */
-@import "layout/prices.css";
+@import "components/prices.css";
 
 /* Отзывы */
-@import "layout/comments.css";
+@import "components/comments.css";
+
+/* Интро */
+@import "components/intro.css";

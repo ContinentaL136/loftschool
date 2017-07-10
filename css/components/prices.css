@@ -45,7 +45,6 @@
     width: 250px;
     margin-right: 43px;
     margin-bottom: 30px;
-    position: relative;
 }
 
 .prices-list__price {
@@ -61,13 +60,10 @@
     height: 153px;
     border-radius: 2px;
     opacity: 15%;
+    cursor: pointer;
 }
 
 .prices-pic__text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: black;
     font-size: 24px;
     font-weight: bold;
     line-height: 22px;
@@ -84,5 +80,21 @@
     font-size: 14px;
     color: #221f1f;
     line-height: 22px;
+}
+
+.prices-img__block {
+    position: relative;
+}
+
+.prices-pic__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.prices-pic__text--pink {
+    color: #ec1e79;
 }
 

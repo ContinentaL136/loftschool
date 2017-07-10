@@ -71,6 +71,17 @@
 .partners__list {
   list-style: none;
   padding: 0;
+  width: 700px;
+}
+
+.partners__item {
+  vertical-align: middle;
+  display: inline-table;
+  text-align: center;
+}
+
+.partners__link {
+  display: inline-block;
 }
 
 .partners__pic {
@@ -82,36 +93,4 @@
 .partners__pic:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
-}
-
-/* Отцентровка партнеров */
-
-/*
-
-.partners__list {
-  width: 700px;
-  text-align: center;
-}
-
-.partners__item {
-  display: inline-block;
-  width: 200px;
-}
-
-.partners__link {
-  line-height: 100px;
-  display: block;
-}
-
-.partners__pic {
-  vertical-align: middle;
-}
-
-*/
-
-.partners__list {
-  width: 700px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
