@@ -70,18 +70,28 @@
 
 .partners__list {
   list-style: none;
-  padding: 0;
+  padding: 20px;
   width: 700px;
+  text-align: justify;
+  margin: 0;
+}
+
+.partners__list:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0px;
+}
+
+.partners__list--down {
+  padding-bottom: 50px;
 }
 
 .partners__item {
-  vertical-align: middle;
-  display: inline-table;
-  text-align: center;
-}
-
-.partners__link {
-  display: inline-block;
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
 }
 
 .partners__pic {

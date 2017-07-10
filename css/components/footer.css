@@ -16,7 +16,7 @@
 }
 
 .footer-info {
-    padding-top: 5px;
+    margin-top: 5px;
 }
 
 .loft-school {
@@ -32,11 +32,6 @@
     padding-top: 10px;
 }
 
-.footer__link {
-    display: block;
-    text-align: center;
-}
-
 /* Стилизация социальных сетей */
 
 .social__text {
@@ -50,15 +45,74 @@
     display: block;
 }
 
-.social__list {
-    display: block;
-    padding-right: 47px;
-    padding-top: 4px;
-}
-
 .social__item {
     display: inline-block;
-    padding: 0 3px;
+}
+
+.social__list {
+    margin-right: 45px;
+}
+
+.footer__link {
+    display: block;
+    text-align: center;
+}
+
+.footer__logo {
+    padding-top: 10px;
+}
+
+.social__text {
+    padding-top: 10px;
+}
+
+.nav-menu__icon-vk {
+  background: url('../../img/social/vk.png');
+}
+
+.nav-menu__icon-facebook {
+  background: url('../../img/social/facebook.png');
+}
+
+.nav-menu__icon-google {
+  background: url('../../img/social/google.png');
+}
+
+.nav-menu__icon-twitter {
+  background: url('../../img/social/twitter.png');
+}
+
+.nav-menu__icon-mail {
+  background: url('../../img/social/mail.png');
+}
+
+.nav-menu__icon-vk:hover {
+  background: url('../../img/social/vk-pink.png');
+}
+
+.nav-menu__icon-facebook:hover {
+  background: url('../../img/social/facebook-pink.png');
+}
+
+.nav-menu__icon-google:hover {
+  background: url('../../img/social/google-pink.png');
+}
+
+.nav-menu__icon-twitter:hover {
+  background: url('../../img/social/twitter-pink.png');
+}
+
+.nav-menu__icon-mail:hover {
+  background: url('../../img/social/mail-pink.png');
+}
+
+.nav-menu__icon {
+    width: 20px;
+    height: 20px;
+	background-repeat: no-repeat;
+    display: inline-block;
+    transition: .3s all ease-in-out;
+    margin: 0 3px;
 }
 
 

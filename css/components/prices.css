@@ -60,13 +60,12 @@
     height: 153px;
     border-radius: 2px;
     opacity: 15%;
-    cursor: pointer;
 }
 
 .prices-pic__text {
     font-size: 24px;
     font-weight: bold;
-    line-height: 22px;
+    line-height: 32px;
     color: #5dd1f8;
 }
 
@@ -79,7 +78,7 @@
 .prices-list__text {
     font-size: 14px;
     color: #221f1f;
-    line-height: 22px;
+    line-height: 21px;
 }
 
 .prices-img__block {
@@ -92,9 +91,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
+    width: 80%;
 }
 
 .prices-pic__text--pink {
     color: #ec1e79;
+    line-height: 32px;
 }
 
