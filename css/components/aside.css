@@ -27,6 +27,10 @@
   color: #221f1f;
 }
 
+.nav-menu__text {
+  padding-left: 25px;
+}
+
 .nav-menu__icon-main {
   background: url('../../img/aside_icons/main_icon.png') 50% 50% no-repeat;
 }
