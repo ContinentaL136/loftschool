@@ -1,51 +1,49 @@
-.bg__pic {
-  background: url('../../img/intro/background.jpg') no-repeat;
-  background-size: cover;
-  position:fixed;
-  top:0;
-  left:0; 
-  width:100%;
-  height:100%;
+.welcome__btn {
+  padding: 15px 20px;
+  display: block;
   text-align: center;
-}
-
-.logo__link {
-  display: inline-block;
-  margin-top: 450px;
-  padding: 30px 0;
-}
-
-.logo__pic {
-  width: 160px;
-  height: 116px;
-}
-
-.button-main {
-  width: 185px;
-  height: 45px;
-  border: 3px solid #ec1e79;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-.button-main__link {
-  text-transform: uppercase;
   font-size: 12px;
-  line-height: 42px;
-  font-weight: bold;
-  text-decoration: none;
   color: #ec1e79;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: 3px solid #ec1e79;
 }
 
-.button-main:hover {
-  background-color: #ec1e79;
-  transition: .2s all ease-in-out;
-}
-
-.button-main:hover .button-main__link {
+.welcome__btn:hover {
   color: #fff;
-  transition: .2s all ease-in-out;
+  background: #ec1e79;
+  transition: .4s ease-in-out;
 }
 
+.wrapper_welcome {
+  background: url('../../img/intro/background.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  min-width: initial;
+  position: relative;
+}
 
+.wrapper_welcome:before {
+  /*content: "";*/
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
 
+.welcome {
+  width: 190px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.welcome__pic {
+  padding-bottom: 25px;
+}

@@ -133,6 +133,7 @@
 
 .form__submit:hover {
   background-color: #ec1e79;
+  transition: color .4s ease-in-out;
 }
 
 .form__controls-right {
