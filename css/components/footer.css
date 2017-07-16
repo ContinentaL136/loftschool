@@ -86,9 +86,9 @@
   background: url('../../img/social/mail.png');
 }
 
-.nav-menu__icon-vk:hover {
+/* .nav-menu__icon-vk:hover {
   background: url('../../img/social/vk-pink.png');
-}
+} */
 
 .nav-menu__icon-facebook:hover {
   background: url('../../img/social/facebook-pink.png');
@@ -111,8 +111,26 @@
     height: 20px;
 	background-repeat: no-repeat;
     display: inline-block;
-    transition: .5s all ease-in-out;
     margin: 0 3px;
 }
+
+  .nav-menu__icon:hover {
+    opacity: 0;
+}  
+
+.nav-menu__icon-vk:hover:before {
+    content: "";
+    background-image: url('../../img/social/vk-pink.png');
+    position:absolute;
+    top:0;
+    right:0;
+    width:20px;
+    height:20px;
+    transition: .5s all ease-in-out;
+    opacity: 1;
+}
+
+
+
 
 
