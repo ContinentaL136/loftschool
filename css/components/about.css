@@ -24,19 +24,14 @@
 }
 
 .page-text p {
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.page-text ul {
+  margin-bottom: 20px;
   font-size: 18px;
-  line-height: 30px;
 }
 
-.page-text li:before {
-  color: #ec1e79;
-  content: "•";
-  padding-right: 10px;
+.page-text li {
+  margin-bottom: 15px;
+  padding-left: 30px;
+  background: url('../../img/workadium/list-bullet.png') 10px 10px no-repeat;
 }
 
 .page-text h3 {

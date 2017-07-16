@@ -25,10 +25,11 @@
 
 .nav-menu__link:hover .nav-menu__text {
   color: #221f1f;
+  transition: .5s all ease-in-out;
 }
 
 .nav-menu__text {
-  padding-left: 25px;
+  padding-left: 12px;
 }
 
 .nav-menu__icon-main {

@@ -40,6 +40,7 @@
   font-family: 'Open Sans';
   font-weight: bold;
   color: #ec1e79;
+  transition: .5s color ease-in-out;
 }
 
 .contacts {
